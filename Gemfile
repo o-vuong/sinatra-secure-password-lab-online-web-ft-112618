@@ -1,9 +1,9 @@
 # A sample Gemfile
 source 'https://rubygems.org'
 
-gem 'sinatra'
-gem 'activerecord', '<=5.1', :require => 'active_record'
-gem 'sinatra-activerecord'
+gem 'sinatra', '>= 2.0.0'
+gem 'activerecord', '~> 6.1', '>= 6.1.7.1', :require => 'active_record'
+gem 'sinatra-activerecord', '>= 2.0.12'
 gem 'rake'
 gem 'bcrypt'
 gem 'require_all'
