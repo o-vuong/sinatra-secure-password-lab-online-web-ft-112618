@@ -1,15 +1,15 @@
 # A sample Gemfile
 source 'https://rubygems.org'
 
-gem 'sinatra'
+gem 'sinatra', '>= 2.0.0'
 gem 'activerecord', '<=5.1', :require => 'active_record'
-gem 'sinatra-activerecord'
+gem 'sinatra-activerecord', '>= 2.0.12'
 gem 'rake'
 gem 'bcrypt'
 gem 'require_all'
-gem 'capybara'
-gem 'rack_session_access'
-gem 'rack-test'
+gem 'capybara', '>= 2.7.0'
+gem 'rack_session_access', '>= 0.2.0'
+gem 'rack-test', '>= 0.7.0'
 gem 'shotgun'
 gem 'pry'
 
